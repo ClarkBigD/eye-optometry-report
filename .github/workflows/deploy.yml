@@ -3,9 +3,6 @@ name: Deploy eye experiment report
 on:
   push:
     branches: [main]
-    paths:
-      - site/**
-      - .github/workflows/deploy.yml
   workflow_dispatch:
 
 permissions:
